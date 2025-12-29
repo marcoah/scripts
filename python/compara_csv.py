@@ -8,8 +8,8 @@ def read_csv(nfile, delimiter=','):
             data.append(line)
     return data
 
-dataf1 = read_csv('ejemplo1.csv')
-dataf2 = read_csv('ejemplo2.csv')
+dataf1 = read_csv('./python/ejemplo1.csv')
+dataf2 = read_csv('./python/ejemplo2.csv')
 index = []
 i = 0
 result = []

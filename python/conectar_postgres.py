@@ -1,6 +1,6 @@
 import psycopg2
 
-conexion1 = psycopg2.connect(database="bd1", user="postgres", password="heladera")
+conexion1 = psycopg2.connect(database="bd1", user="postgres", password="master")
 cursor1=conexion1.cursor()
 sql="insert into articulos(descripcion, precio) values (%s,%s)"
 datos=("naranjas", 23.50)
