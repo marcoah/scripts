@@ -8,6 +8,10 @@ En este reporsitorio se estan subiendo ejemplos de programas utiles con python y
 2. Crea una rama (branch) describiendo el programa q estas agregando
 3. Crea un Pull Request
 
+## Instalar requerimientos
+
+pip install -r requirements.txt
+
 ## Comparadorcsv
 
 compara dos archivos csv
