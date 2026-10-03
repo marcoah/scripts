@@ -1,4 +1,4 @@
-# Dump desde RDS y restore local en un solo paso:
+# Dump desde RDS y restore local en un solo paso
 
 path_dump= C:\Program Files\PostgreSQL\<version>\bin\pg_dump.exe
 path_restore= C:\Program Files\PostgreSQL\<version>\bin\pg_restore.exe
